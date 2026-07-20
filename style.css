@@ -98,9 +98,15 @@ body {
     text-align: center;
     padding: 0 2rem;
     background-color: var(--bg-surface);
+    /**/
+    background-image: url('/images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-content h1 {
+    z-index: 1;
     font-size: 3.5rem;
     margin-bottom: 1rem;
 }

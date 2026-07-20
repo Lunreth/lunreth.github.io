@@ -1,1 +1,69 @@
-<h1>Hi</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">DevFolio.</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">??</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Alex</span></h1>
+            <p>A Frontend Developer crafting clean and interactive web experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <main id="projects" class="projects-section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A responsive shopping application with filter systems and persistent local storage tracking.</p>
+                    <span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JS</span>
+                </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>A sleek productivity dashboard featuring drag-and-drop mechanics and custom categories.</p>
+                    <span class="tag">JavaScript</span> <span class="tag">CSS Grid</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <p>Have an exciting project or job opportunity? Let's discuss it.</p>
+        <a href="mailto:your.email@example.com" class="btn btn-alt">Email Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 DevFolio. Built from scratch.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
